@@ -160,8 +160,7 @@
 <!--End Connect Section--> 
 
 <!--Begin Counter Section-->
-<div style="text-align: center;" class="counter-number">
-    <p>Views on my page</p>
+<div style="text-align: center" class="counter-number">
 </div>
 <!--End Counter Section--> 
 
@@ -192,7 +191,7 @@
         async function updateCounter() {
             let response = await fetch("https://e5hkkzpb5crqvm7owjgjagh46y0znhwt.lambda-url.us-east-1.on.aws/");
             let data = await response.json();
-            counter.innerHTML = ` Views: ${data}`;
+            counter.innerHTML = ` Views of my page: ${data}`;
         }
 
         updateCounter();
