@@ -197,11 +197,9 @@ a img{border:0px;}
 		display: grid; 
 		grid-template-columns: repeat(2, 1fr); /* Two columns */ 
 	  } 
-	
 }
-
 #links #dev-to {
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 }
 
 /****************************************************/
