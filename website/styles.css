@@ -195,7 +195,9 @@ a img{border:0px;}
 #links {
 	.inline-block { 
 		display: inline-block; 
+		padding-left: 10px;
 	  } 
+	
 }
 
 /****************************************************/
