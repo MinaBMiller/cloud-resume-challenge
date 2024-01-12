@@ -45,6 +45,12 @@ a img{border:0px;}
 	margin-left:27px;
 	font: 400 16px/20px 'Bree Serif', Georgia, serif;
 }
+#blog{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
 
 /****************************************************/
 /* ABOUT SECTION */
