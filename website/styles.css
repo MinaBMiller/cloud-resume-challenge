@@ -192,13 +192,13 @@ a img{border:0px;}
 #connect #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
 #connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
-#links {
+#links{
 	.grid-container { 
 		display: grid; 
 		grid-template-columns: repeat(2, 1fr); /* Two columns */ 
 	  } 
 }
-#links #dev-to {
+#dev-to{
 	.grid-item {
 		padding-bottom: 10px; /* add 10px padding around the content */
 	  }
