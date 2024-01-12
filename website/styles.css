@@ -192,6 +192,12 @@ a img{border:0px;}
 #connect #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
 #connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
+#links {
+	.inline-block { 
+		display: inline-block; 
+	  } 
+}
+
 /****************************************************/
 /* MISC */
 /****************************************************/
