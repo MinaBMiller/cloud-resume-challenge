@@ -195,13 +195,13 @@ a img{border:0px;}
 #links {
 	.inline-block { 
 		display: inline-block; 
-		padding-left: 30px;
 	  } 
 	
 }
 
 #dev.to {
 	padding-top: 10px;
+	padding-left: 30px;
 }
 
 /****************************************************/
