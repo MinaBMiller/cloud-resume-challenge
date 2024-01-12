@@ -199,7 +199,9 @@ a img{border:0px;}
 	  } 
 }
 #links #dev-to {
-	padding-bottom: 50px;
+	.grid-item {
+		padding-bottom: 10px; /* add 10px padding around the content */
+	  }
 }
 
 /****************************************************/
