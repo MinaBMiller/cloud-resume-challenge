@@ -193,16 +193,17 @@ a img{border:0px;}
 #connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
 #links {
-	.inline-block { 
-		display: inline-block; 
+	.grid-container { 
+		display: grid; 
+		grid-template-columns: repeat(2, 1fr); /* Two columns */ 
 	  } 
 	
 }
 
-#links #dev.to {
+/*#links #dev.to {
 	padding-top: 10px;
 	padding-left: 30px;
-}
+}*/
 
 /****************************************************/
 /* MISC */
