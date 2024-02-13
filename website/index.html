@@ -22,7 +22,6 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#connect">Connect</a></li>
-        <li><a href="https://dev.to/minab/from-barista-to-cloud-engineer-2eki">Blog</a></li>
     </ul>
         </div>
 </div>
@@ -43,7 +42,7 @@
         </p>
         </div>
         <div class="content">
-        	<img src="https://media.licdn.com/dms/image/D4E03AQG08Txqf7fmgg/profile-displayphoto-shrink_800_800/0/1692749820548?e=1709769600&v=beta&t=yi505hJ8gl0bAMUxPSk8BvA-Do17L-hSQaWjZkdt7pY" 
+        	<img src="https://media.licdn.com/dms/image/D5603AQFKWFU_JwfLNA/profile-displayphoto-shrink_800_800/0/1706645664468?e=1713398400&v=beta&t=fJ4QW7R71pHv32M_DkXUpFN5oY7EJ4DldcR6pDCWVPk" 
             width="400" 
             height="400"/>
             <h2>My Name is Mina Miller, and I am beginning my career in Cloud Engineering</h2>
@@ -113,7 +112,7 @@
     </div>
 <!--End Experience Section-->
 
-<!--Begin Certifications Section-->  
+<!--Begin Work Section-->  
     <div id="certifications">
     	<h1>Certifications</h1>
         <div class="top-divider">
@@ -132,7 +131,7 @@
             </div>
         <div class="bottom-divider"></div>
     </div>
-<!--End Certifications Section-->
+<!--End Work Section-->
 
 <!--Begin Connect Section-->  
     <div id="connect">
@@ -145,17 +144,8 @@
         	<div class="content">
                 </div>
                 <div id="social-footer">
-                	<!--<h2>Follow Me:</h2>-->
-                    <ul id="links">
-                        <div class="grid-container">
-                        <div><a href="https://www.linkedin.com/in/mina-miller-67a781289/"><img src="https://freelogopng.com/images/all_img/1656997498linkedin-icon-white.png" style="width:50px;height:5Opx;noshade;"></a></div>
-                        <!--<div class="dev-to"><a href="#https://dev.to/minab/from-barista-to-cloud-engineer-2eki"><img src="https://www.iconbolt.com/iconsets/phosphor-bold/dev-to-logo.svg" alt="HTML tutorial" style="width:65px;height:65px;noshade;"></a></div> -->
-                        </div>
-                    </ul>
-                    <!--<ul id="sm-links">
+                	<h2>Follow Me:</h2>
                     <p><a href="https://www.linkedin.com/in/mina-miller-67a781289/" class="linkedin"><img src="https://freelogopng.com/images/all_img/1656997498linkedin-icon-white.png" alt="HTML tutorial" style="width:42px;height:42px;noshade;"></a> </p>
-                    <p><a href="https://dev.to/minab/from-barista-to-cloud-engineer-2eki" class="blog"><img src="https://www.iconbolt.com/iconsets/phosphor-bold/dev-to-logo.svg" alt="HTML tutorial" style="width:42px;height:42px;noshade;float:center"></a> </p>
-                    </ul>
                     <ul id="sm-links">
                     	<li><a href="#" class="facebook">Facebook</a></li>
            				<li><a href="#" class="twitter">Twitter</a></li>
@@ -163,21 +153,13 @@
                         <li><a href="#" class="vimeo">Vimeo</a></li>
                         <li><a href="#" class="youtube">YouTube</a></li>
                         <li><a href="https://www.linkedin.com/in/mina-miller-67a781289/"></a></li>
-                    </ul> -->
+                    </ul>
                 </div>
             </div>
     </div>
 <!--End Connect Section--> 
 
-<!--Begin Counter Section-->
-<div>
-<p><a href="#views" class="counter-number">Views</a></p>
 </div>
-<!--<div style="text-align: center" class="counter-number">
-</div>
-End Counter Section--> 
-
-
 
  <!-- The JavaScript -->  
         <script type="text/javascript">
@@ -198,18 +180,5 @@ End Counter Section-->
   			});
 
         </script>
-
-    <script type="text/javascript">
-        const counter = document.querySelector(".counter-number");
-        async function updateCounter() {
-            let response = await fetch("https://e5hkkzpb5crqvm7owjgjagh46y0znhwt.lambda-url.us-east-1.on.aws/");
-            let data = await response.json();
-            counter.innerHTML = ` Views of my page: ${data}`;
-        }
-
-        updateCounter();
-
-    </script>
 </body>
 </html>
-
