@@ -200,9 +200,10 @@ a img{border:0px;}
 #connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
 #links{
-	.grid-container { 
+	.grid { 
 		display: grid; 
 		grid-template-columns: auto auto auto auto; /* Two columns */ 
+		grid-auto-flow: row;
 	  } 
 }
 .dev-to{
