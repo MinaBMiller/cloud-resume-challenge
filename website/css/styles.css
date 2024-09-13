@@ -191,6 +191,11 @@ a img{border:0px;}
 	height:26px;
 	margin-right:10px;
 }
+.wrapper {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+  }
+  
 #connect #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
 #connect #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
 #connect #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
